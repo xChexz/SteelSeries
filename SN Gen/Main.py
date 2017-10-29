@@ -1,7 +1,9 @@
 import random
-from QckPrism import Qck
-from Rival700 import Rival700
-from Siberia840 import Siberia840
+import sys
+sys.path.insert(0, '/Modules/')
+from Modules.QckPrism import Qck
+from Modules.Rival700 import Rival700
+from Modules.Siberia840 import Siberia840
 
 x = int(input("""1. Qck Prism
 2. Rival700

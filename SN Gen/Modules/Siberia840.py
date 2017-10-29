@@ -5,6 +5,6 @@ def Siberia840():
         ran1 = random.randint(11111111111,99999999999)
         ran1 = str(ran1); sn = "61230" + ran1
         print (sn)
-        txt = open("Ouput\840.txt", "a")
-        txt.write("SteelSeries / " + sn + " / Siberia 840 \n")
+        txt = open("Output\840.txt", "a")
+        txt.write("SteelSeries / " + sn + " / Siberia 840, \n")
         txt.close()
